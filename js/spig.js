@@ -126,7 +126,7 @@ jQuery(document).ready(function ($) {
 jQuery(document).ready(function ($) {
 
     window.setInterval(function () {
-        msgs = ["播报明日天气<iframe name=\"xidie\" src=\"http://i.tianqi.com/index.php?c=code&a=getcode&id=8&h=80&w=230\"frameborder=\“0\” scrolling=\"no\" height=\"70px\"  width=\"240px\"  margin-left=\"100px\" allowtransparency=\"true\" ></iframe>", "来陪我聊天吧！", "好无聊哦，你都不陪我玩！", "…@……!………", "^%#&*!@*(&#)(!)(", "我可爱吧！嘻嘻!~^_^!~~","谁淫荡呀?~谁淫荡?，你淫荡呀!~~你淫荡！~~","从前有座山，山上有座庙，庙里有个老和尚给小和尚讲故事，讲：“从前有座……”"];
+        msgs = ["播报天气<iframe name=\"xidie\" src=\"http://i.tianqi.com/index.php?c=code&a=getcode&id=8&h=80&w=230\"frameborder=\“0\” scrolling=\"no\" height=\"70px\"  width=\"240px\"  margin-left=\"100px\" allowtransparency=\"true\" ></iframe>", "来陪我聊天吧！", "好无聊哦，你都不陪我玩！", "…@……!………", "^%#&*!@*(&#)(!)(", "我可爱吧！嘻嘻!~^_^!~~","谁淫荡呀?~谁淫荡?，你淫荡呀!~~你淫荡！~~","从前有座山，山上有座庙，庙里有个老和尚给小和尚讲故事，讲：“从前有座……”"];
         var i = Math.floor(Math.random() * msgs.length);
         showMessage(msgs[i], 10000);
     }, 35000);
@@ -135,9 +135,9 @@ jQuery(document).ready(function ($) {
 //无聊动动
 jQuery(document).ready(function ($) {
     window.setInterval(function () {
-        msgs = ["~不得了啦~","你在时你是一切，你不在时一切是你。","完了，你也不理我了，我成狗不理了！","人家有的是背景，而我有的只是背影。","我又不是人民币，怎么能让人人都喜欢我？","我不是广场上算卦的，唠不出那么多你爱听的嗑。","何必太认真，何必太执着。虚妄的追逐，最后徒留伤悲。","是金子总要发光的，但当满地都是金子的时候，我自己也不知道自己是哪颗了。","我一个人在这里，一个人在这里反反复复的工作，就像在这里反复的生活。无聊而乏味，唯一改变的是时间的流逝。","我就是巴黎欧莱雅，你值得拥有！","世上只有妈妈好,爸爸也不错。",];
+        msgs = ["~不得了啦~","你在时你是一切，你不在时一切是你。","完了，你也不理我了，我成狗不理了！","人家有的是背景，而我有的只是背影。","我又不是人民币，怎么能让人人都喜欢我？","我不是广场上算卦的，唠不出那么多你爱听的嗑。","何必太认真，何必太执着。虚妄的追逐，最后徒留伤悲。","是金子总要发光的，但当满地都是金子的时候，我自己也不知道自己是哪颗了。","我一个人在这里，一个人在这里反反复复的工作，就像在这里反复的生活。无聊而乏味，唯一改变的是时间的流逝。","我就是巴黎欧莱雅，你值得拥有！","世上只有妈妈好,爸爸也不错。"];
         var i = Math.floor(Math.random() * msgs.length);
-        s = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6,0.7,0.75,-0.1, -0.2, -0.3, -0.4, -0.5, -0.6,-0.7,-0.75];
+        s = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6,0.7,0.75,0.8,0.85,0.9,-0.1, -0.2, -0.3, -0.4, -0.5, -0.6,-0.7,-0.75,-0.7,-0.75,-0.8,-0.85,-0.9];
         var i1 = Math.floor(Math.random() * s.length);
         var i2 = Math.floor(Math.random() * s.length);
         $(".spig").animate({
