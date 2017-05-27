@@ -188,7 +188,7 @@ jQuery(document).ready(function ($) {
       });
     });
     $("#comment").click(function () {
-        showMessage("认真填写哦！不然会被认作垃圾评论的！我的乖乖~");
+        showMessage("认真填写哦！不然会被认作垃圾的！我的乖乖~");
         $(".spig").animate({
             top: $("#comment").offset().top - 70,
             left: $("#comment").offset().left - 170
@@ -230,25 +230,25 @@ jQuery(document).ready(function ($) {
                 msgs =["我哭啦！"];
                 var i = Math.floor(Math.random() * msgs.length);
                 setTimeout(function () {
-                   $(".mumu").css("backgroundImage","url(images/kn.jpg)");
+                   $(".mumu").css("backgroundImage","url(img/kn.jpg)");
                    $(".mumu").css("background-size","100px 200px ");
                }, 3000);
-                $(".mumu").css("backgroundImage","url(images/kn1.jpg) ");
-                $(".mumu").css("background-size","100px 100px ");
+                $(".mumu").css("backgroundImage","url(img/kn1.jpg) ");
+                $(".mumu").css("background-size","80px 120px ");
             }
             else if(stat_click==2){
              showMessage("嘿嘿!",10000);
              setTimeout(function () {
-               $(".mumu").css("backgroundImage","url(images/kn.jpg)");
+               $(".mumu").css("backgroundImage","url(img/kn.jpg)");
            }, 3000);
-             $(".mumu").css("backgroundImage","url(images/kn3.jpg)");
+             $(".mumu").css("backgroundImage","url(img/kn3.jpg)");
          }else if(stat_click==3){
              showMessage("变态!",10000);
              setTimeout(function () {
-               $(".mumu").css("backgroundImage","url(images/kn.jpg)");
+               $(".mumu").css("backgroundImage","url(img/kn.jpg)");
                $(".mumu").css("background-size","100px 200px ");
            }, 3000);
-             $(".mumu").css("backgroundImage","url(images/knbt.jpg)");
+             $(".mumu").css("backgroundImage","url(img/knbt.jpg)");
              $(".mumu").css("background-size","100px 150px ");
          }
          else {

@@ -1,25 +1,98 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>jQuery制作网页浮动卡娜酱</title>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/spig.js"></script>
-<link rel="stylesheet" href="css/spigPet.css" type="text/css"/>
-<script type="text/javascript">
-var isindex = true;
-var visitor = true;
-</script>
+	<title>lqm</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<link rel="stylesheet" href="css/spigPet.css" type="text/css"/>
+	<link rel="stylesheet" href="css/tfhed.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/spig.js"></script>
+	<script type="text/javascript">
+		var isindex = true;
+		var visitor = true;
+	</script>
 
 </head>
-<body style="height:1000px;">
+<body >
 
-<!--小人只在首页显示 start*-->
-<div id="spig" class="spig">
-    <div id="message">正在加载中……</div>
-    <div id="mumu" class="mumu"></div>
-</div>
-<!--小人end*-->
-
-</body>
-</html>
+	<!--小人只在首页显示 start*-->
+	<div id="spig" class="spig">
+		<div id="message">正在加载中……</div>
+		<div id="mumu" class="mumu"></div>
+	</div>
+	<div class="ht">
+		<div class="top">
+			<div class="center">
+				<img src="img/title-yellow.png">
+				<div class="box">
+					<div class="tFHed" id="#author">lqm</div>
+				</div>
+				<div class="motto">管理自身远比管理他人看法来得重要</div>
+			</div>
+			<div id="top1"></div>
+			<div id="top2"></div>
+		</div>
+		<div class="menu">
+			<div class="center">
+				<ul>
+					<li onclick="window.location.href='https://lqmfeiyun.github.io/'">博客园</li>
+					<li onclick="window.location.href='https://lqmfeiyun.github.io/pc_home/'">pc首页</li>
+					<li onclick="window.location.href='https://www.baidu.com/'">新随笔</li>
+					<li onclick="window.location.href='https://www.baidu.com/'">联系</li>
+					<li onclick="window.location.href='https://www.baidu.com/'">订阅</li>
+					<li onclick="window.location.href='https://www.baidu.com/'">管理</li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="center">
+		<div class="left">
+			<div class="left-1">
+				<div class="datetime" id="go-home">2016年1月23日</div>
+				<h1>pc首页</h1>	
+				<div class="abstract">摘要：pc首页:<a id="url" href="javascript:void(0)">https://lqmfeiyun.github.io/pc_home/</a><a href="https://lqmfeiyun.github.io/pc_home/">阅读全文</a></div>
+				<div class="posted">posted @ XXXX-XX-XX XX:XX lqm 阅读(X) 评论(X) <a>编辑</a></div>
+			</div>
+			<div class="left-1">
+				<div class="datetime">2016年1月5日</div>
+				<h1>网页链接跳转</h1>	
+				<div class="abstract">摘要：。。。。。。。。。<a href="https://www.baidu.com/">阅读全文</a></div>
+				<div class="posted">posted @ XXXX-XX-XX XX:XX lqm 阅读(X) 评论(X) <a>编辑</a></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="right">
+			<div class="right-1">
+				<div class="title">公告</div>
+				<ul>
+					<li>昵称：lqm</li>
+					<li>园龄：n个月</li>
+					<li>粉丝：0</li>
+					<li>关注：0</li>
+				</ul>
+			</div>
+			<div class="right-2">
+				<div class="title">搜索</div>
+				<div class="search">
+					<div class="search-1">
+						<input class="input" id="comment" type="text"/>
+						<input class="baidu button" type="button" value="找找看"/>
+					</div>
+					<div class="search-2">
+						<input class="input"  id="s" type="text"/>
+						<input class="google button" type="button" value="谷歌搜索"/>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="bottom-style">
+	</div>
+	<div class="bottom">
+		Copyright © 2016 lqm
+	</body>
+	</html>
