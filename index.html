@@ -77,12 +77,16 @@
 				<div class="title">搜索</div>
 				<div class="search">
 					<div class="search-1">
-						<input class="input" id="comment" type="text"/>
-						<input class="baidu button" type="button" value="找找看"/>
+					<form id="baidu" target="_blank" name="baidu" method="get" action="http://www.baidu.com/s">
+						<input class="input" id="comment" type="text" name="word"/>
+						<input type="submit" class="baidu button" type="button" value="找找看"/>
+						</form> 
 					</div>
 					<div class="search-2">
-						<input class="input"  id="s" type="text"/>
-						<input class="google button" type="button" value="谷歌搜索"/>
+					<form id="google" target="_blank" name="google" method="get" action="http://www.google.com/search">
+						<input class="input"  id="s" type="text" name="word"/>
+						<input type="submit" class="google button" type="button" value="谷歌搜索"/>
+						</form> 
 					</div>
 				</div>
 			</div>
