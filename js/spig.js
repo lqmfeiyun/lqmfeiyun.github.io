@@ -3,7 +3,7 @@
 jQuery(document).ready(function ($) {
     $("#spig").mousedown(function (e) {
         if(e.which==3){
-            showMessage("神秘花园:<br /><a href=\"http://www.qdfuns.com/notes/41996/9969c4f53d2e6fa06fd7c088ae00b8fc.html\" title=\"\">秘密通道</a>    <a href=\"http://www.baidu.com\" title=\"\">辉煌大厅</a>",10000);
+            showMessage("神秘花园:<br /><a href=\"http://www.qdfuns.com/house/41996/note\" title=\"\">秘密通道</a>    <a href=\"https://github.com/lqmfeiyun\" title=\"\">辉煌大厅</a>",10000);
         }
     });
     $("#spig").bind("contextmenu", function(e) {
