@@ -152,6 +152,7 @@ html{
 	clear:both;
 }
 .abstract a{
+	margin-left:20px;
 	cursor: pointer;
 	text-decoration:none;
 	color:#9ab26b;
